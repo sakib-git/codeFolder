@@ -67,6 +67,9 @@ app.delete('/datas/:id', async (req, res) => {
   res.send(result)
 })
 
+app.post('/edit', async (req, res) => {
+  
+})
 
     // Send a ping to confirm a successful connection
     await client.db('admin').command({ ping: 1 });
